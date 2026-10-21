@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080a08">
+  <meta name="description" content="VentureVerse 2026 by EDC JSS University, Noida. Ideas into action.">
+  <title>VentureVerse 2026 — Ideas into Action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="progress-bar" id="progress"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand">Venture<span>Verse</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#schedule" class="nav-link">Schedule</a>
+      <a href="#speakers" class="nav-link">Speakers</a>
+      <a href="#register" class="nav-register">Register <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <p class="eyebrow hero-intro"><span class="live-dot"></span> EDC JSSUN PRESENTS · 2026</p>
+
+        <h1 class="hero-title">
+          VentureVerse
+          <span>2026<span class="title-period">.</span></span>
+        </h1>
+
+        <p class="hero-tagline">Real ideas. Bold founders.<br>A brighter tomorrow.</p>
+
+        <div class="hero-details">
+          <div class="detail">
+            <span class="detail-icon">◷</span>
+            <div><strong>12 November 2026</strong><small>10:00 AM – 3:00 PM</small></div>
+          </div>
+          <div class="detail">
+            <span class="detail-icon">⌖</span>
+            <div><strong>University Auditorium</strong><small>JSS University, Noida</small></div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#register" class="button button-primary">Save your spot <span>↗</span></a>
+          <a href="#about" class="text-button"><span class="play-icon">↓</span> Explore the experience</a>
+        </div>
+      </div>
+
+      <div class="orb-scene" aria-label="Abstract glowing green orbital artwork">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="planet">
+          <div class="planet-shine"></div>
+          <div class="planet-shadow"></div>
+        </div>
+        <div class="orbital-dot"></div>
+        <div class="orb-caption">IDEAS IN MOTION <span>●</span></div>
+      </div>
+
+      <div class="countdown-panel">
+        <p>THE EVENT BEGINS IN</p>
+        <div class="countdown" id="countdown">
+          <div><strong id="days">--</strong><span>DAYS</span></div>
+          <div><strong id="hours">--</strong><span>HOURS</span></div>
+          <div><strong id="minutes">--</strong><span>MINS</span></div>
+          <div><strong id="seconds">--</strong><span>SECS</span></div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue"><span></span> SCROLL TO EXPLORE ↓</a>
+      <div class="hero-index">01 — 04</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / THE EXPERIENCE</p>
+        <h2>More than an event.<br><span>It's a launchpad.</span></h2>
+        <p class="section-description">
+          VentureVerse 2026 is EDC's flagship event, bringing together curious minds,
+          bold ideas and real-world insights. A day of learning, building and connecting
+          for every aspiring founder.
+        </p>
+        <a href="#schedule" class="button button-outline">Explore the journey <span>↘</span></a>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon">✳</div>
+          <p class="card-index">01 / DISCOVER</p>
+          <h3>Think like a founder.</h3>
+          <p>Spot problems worth solving and turn early ideas into opportunities.</p>
+          <span class="card-arrow">↗</span>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon">↗</div>
+          <p class="card-index">02 / CREATE</p>
+          <h3>Build something real.</h3>
+          <p>Challenge your creativity through collaborative campus activities.</p>
+          <span class="card-arrow">↗</span>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon">◎</div>
+          <p class="card-index">03 / CONNECT</p>
+          <h3>Meet your people.</h3>
+          <p>Exchange perspectives with aspiring founders and fellow innovators.</p>
+          <span class="card-arrow">↗</span>
+        </article>
+      </div>
+
+      <div class="manifesto reveal">
+        <span class="manifesto-mark">“</span>
+        <p>The next big thing doesn't start big.<br><span>It starts with an idea.</span></p>
+        <span class="manifesto-caption">YOUR IDEA. YOUR MOVE.</span>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="section schedule-section" id="schedule">
+      <div class="schedule-backdrop"></div>
+      <div class="schedule-intro reveal">
+        <p class="eyebrow">02 / THE PLAN</p>
+        <h2>One day.<br><span>Endless possibilities.</span></h2>
+        <p class="section-description">
+          A curated lineup of talks, activities and networking,
+          designed to inspire, equip and connect you.
+        </p>
+        <span class="schedule-badge"><span class="live-dot"></span> 12 NOVEMBER · THURSDAY</span>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <time>10:00 AM</time><span class="timeline-dot"></span>
+          <div><h3>Welcome to VentureVerse</h3><p>Opening the event and introducing the vision.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>10:20 AM</time><span class="timeline-dot"></span>
+          <div><h3>From Idea to Startup</h3><p>Discover how ideas become real ventures.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>11:15 AM</time><span class="timeline-dot"></span>
+          <div><h3>The Founder Story</h3><p>Lessons from the entrepreneurial journey.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>12:00 PM</time><span class="timeline-dot"></span>
+          <div><h3>Campus Idea Sprint</h3><p>Think creatively and develop a solution.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>1:15 PM</time><span class="timeline-dot"></span>
+          <div><h3>Pitching Basics</h3><p>Learn to communicate an idea clearly.</p></div>
+        </article>
+        <article class="timeline-item reveal">
+          <time>2:15 PM</time><span class="timeline-dot"></span>
+          <div><h3>Networking & Closing</h3><p>Connect, reflect and wrap up the day.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SPEAKERS -->
+    <section class="section speakers-section" id="speakers">
+      <div class="speakers-heading reveal">
+        <div>
+          <p class="eyebrow">03 / THE PEOPLE</p>
+          <h2>Meet the minds<br><span>behind the ideas.</span></h2>
+        </div>
+        <p class="section-description">Fresh perspectives. Different journeys.<br>One shared spirit of innovation.</p>
+      </div>
+
+      <div class="speaker-grid">
+        <article class="speaker-card reveal">
+          <div class="speaker-avatar avatar-one"><span>AM</span></div>
+          <div class="speaker-info">
+            <p class="card-index">FICTIONAL GUEST · STARTUP STRATEGY</p>
+            <h3>Aarav Mehta</h3>
+            <p>Exploring how student ideas can become useful, sustainable businesses.</p>
+          </div>
+          <span class="speaker-number">01</span>
+        </article>
+
+        <article class="speaker-card reveal">
+          <div class="speaker-avatar avatar-two"><span>SK</span></div>
+          <div class="speaker-info">
+            <p class="card-index">FICTIONAL GUEST · PRODUCT DESIGN</p>
+            <h3>Siya Kapoor</h3>
+            <p>Turning everyday problems into meaningful products through creative thinking.</p>
+          </div>
+          <span class="speaker-number">02</span>
+        </article>
+      </div>
+      <p class="fictional-note">Speaker profiles are fictional placeholders for this concept project.</p>
+    </section>
+
+    <!-- REGISTRATION CTA -->
+    <section class="registration-section" id="register">
+      <div class="registration-orb"></div>
+      <div class="registration-content reveal">
+        <p class="eyebrow">04 / YOUR NEXT CHAPTER</p>
+        <h2>Be part of<br><span>something bigger.</span></h2>
+        <p>Bring your curiosity. Leave with a new perspective.</p>
+        <button class="button button-primary" id="registerButton">I'm interested <span>↗</span></button>
+        <p class="demo-note">Demo interaction · No real registration is submitted.</p>
+      </div>
+      <div class="registration-bottom"><span>VENTUREVERSE 2026</span><span>IDEAS INTO ACTION — EDC JSSUN</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="brand">Venture<span>Verse</span></a>
+    <p>EDC JSSUN · VentureVerse 2026</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
